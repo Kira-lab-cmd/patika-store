@@ -2,11 +2,12 @@ import { StyleSheet, Dimensions } from "react-native";
 
 export default StyleSheet.create({
     container: {
-        backgroundColor: 'gray',
+        backgroundColor: '#F0FFFF',
         borderRadius: 10,
         padding: 10,
         marginBottom: 5,
         width: 190,
+        height: 320,
         borderRadius: 10,
 
     },
@@ -21,7 +22,10 @@ export default StyleSheet.create({
     },
     soldout_title: {
         color: "red",
-        marginLeft: 25
+        marginLeft: 15,
+        fontWeight: "bold",
+        fontSize: 14,
+        padding: 5,
     },
     soldout_container: {
         alignItems: "flex-end",
@@ -29,13 +33,18 @@ export default StyleSheet.create({
     },
     title: {
         marginTop: 5,
+        fontWeight: "bold",
+        fontSize: 18
     },
     price: {
-
+        color: "#A9A9A9",
+        fontWeight: "bold",
+        fontSize: 16
     },
     price_soldout: {
         marginTop: 7,
         flexDirection: 'row',
+
     }
 
 })

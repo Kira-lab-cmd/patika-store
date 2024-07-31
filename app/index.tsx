@@ -11,6 +11,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title}>TETIKSTORE</Text>
       <SearchBar />
 
       <FlatList numColumns={2}
@@ -26,8 +27,11 @@ const styles = StyleSheet.create({
 
   container: {
     flex: 1,
-    marginTop: 20,
-
+    marginTop: 5,
+  },
+  title: {
+    fontSize: 40,
+    fontWeight: 'bold',
+    color: '#8B008B'
   }
-
 })

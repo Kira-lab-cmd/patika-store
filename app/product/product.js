@@ -4,6 +4,7 @@ import styles from './product.style'
 
 const product = props => {
     return (
+
         <View style={styles.container}>
             <View style={styles.inner_container}>
                 <View style={styles.image_container}>
@@ -23,6 +24,7 @@ const product = props => {
                 </View>
             </View>
         </View>
+
     )
 }
 
